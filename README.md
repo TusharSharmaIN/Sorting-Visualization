@@ -9,7 +9,7 @@
 ![](https://img.shields.io/badge/Insertion_Sort-✓-blue.svg)
 ![](https://img.shields.io/badge/Selection_Sort-✓-blue.svg)
 ![](https://img.shields.io/badge/Quick_Sort-✓-blue.svg)
-![](https://img.shields.io/badge/Merge_Sort-blue.svg)
+![](https://img.shields.io/badge/Merge_Sort--blue.svg)
 
 ## Bubble Sort
 
