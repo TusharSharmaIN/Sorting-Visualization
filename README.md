@@ -1,7 +1,7 @@
 # Sorting Algorithms
 
 ![](https://img.shields.io/badge/build-success-brightgreen.svg)
-![](https://img.shields.io/badge/test-pass-brightgreen.svg)
+![](https://img.shields.io/badge/test-passing-brightgreen.svg)
 
 # Algorithms
 
