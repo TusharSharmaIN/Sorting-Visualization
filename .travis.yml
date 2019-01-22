@@ -1,1 +1,15 @@
-language: processing
+# Lauch redis
+$ redis-server
+
+# before_script
+$ mysql -e 'create database genesis_test'
+
+# before_install:
+sudo apt-get install libhiredis-dev
+gem install recommendify -v '0.3.8'
+
+# script
+$ RAILS_ENV=test bundle exec rake db:migrate --trace
+$ bundle exec rake db:test:prepare
+$ RAILS_ENV=test rake sunspot:solr:start
+$ bundle exec rspec spec/
