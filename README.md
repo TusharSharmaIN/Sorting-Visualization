@@ -10,6 +10,7 @@
 ![](https://img.shields.io/badge/Selection_Sort-✓-blue.svg)
 ![](https://img.shields.io/badge/Quick_Sort-✓-blue.svg)
 ![](https://img.shields.io/badge/Merge_Sort-✓-blue.svg)
+![](https://img.shields.io/badge/Heap_Sort-✓-blue.svg)
 
 ## Bubble Sort
 
@@ -106,6 +107,16 @@ It requires `O(n)` space complexity. Hence it loses an advantage when we are dea
 **Real Time Visualization of Merge Sort**
 
 ![](Gifs/M_Sort.gif)
+
+## Heap Sort
+
+**stable:** `No` - **time:** `O(n log n)` - **space:** `O(1)`
+
+Heapsort is simple to implement, performs an `O(n log n)` in place sort, but is not stable.
+
+The first loop, the `O(n)` **heapify** phase, puts the array into heap order. The second loop, the `O(n log n)` **sortdown** phase, repeatedly extracts the maximum and restores heap order.
+
+Both phases are slightly adaptive, though not in any particularly useful manner. In the nearly sorted case, the heapify phase destroys the original order. In the reversed case, the heapify phase is as fast as possible since the array starts in heap order, but then the sortdown phase is typical. In the few unique keys case, there is some speedup, but not as much as in 3-way quicksort.
 
 ----
 
