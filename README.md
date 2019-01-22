@@ -9,7 +9,7 @@
 ![](https://img.shields.io/badge/Insertion_Sort-✓-blue.svg)
 ![](https://img.shields.io/badge/Selection_Sort-✓-blue.svg)
 ![](https://img.shields.io/badge/Quick_Sort-✓-blue.svg)
-![](https://img.shields.io/badge/Merge_Sort--blue.svg)
+![](https://img.shields.io/badge/Merge_Sort-✓-blue.svg)
 
 ## Bubble Sort
 
@@ -102,3 +102,12 @@ Apart from being fairly efficient, a merge sort has the advantage that it can be
 **Cons**
 
 It requires `O(n)` space complexity. Hence it loses an advantage when we are dealing with large data sets.
+
+**Real Time Visualization of Merge Sort**
+
+![](Gifs/M_Sort.gif)
+
+----
+
+
+[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/imtusharsharma)
