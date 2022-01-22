@@ -129,4 +129,4 @@ In the nearly sorted case, the heapify phase destroys the original order. In the
 ----
 
 
-[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/imtusharsharma)
+[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/TusharSharmaIN)
